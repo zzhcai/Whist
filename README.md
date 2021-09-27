@@ -26,3 +26,8 @@ An NPC will do 2 steps, i.e., cards filtering and card selecting.
 - Highest rank selection: The NPC will select the card with the highest rank to play. If many cards are applicable for a selection, NERD Games Inc. is open to your idea on how to select the card.
 
 - Smart selection: The NPC will record the relevant information (e.g., collecting the cards that been already played) and makes a reasonable selection. For example, the NPC may consider the chance whether it will win or not. If not, it will violate the rules by selecting card with the lowest rank. For this approach, NERD Games Inc. is open to your ideas for the smart selection approach. However, NERD Games Inc. does not expect a sophisticated algorithm. At least, this approach should make a decision based on the collected information and it should look smarter than the combination of pre-defined approaches above.
+
+
+# Design Diagrams
+
+See [uml_class.pdf](https://github.com/zzhcai/Whist/blob/main/uml_class.pdf) and [uml_sequence.pdf](https://github.com/zzhcai/Whist/blob/main/uml_sequence.pdf) for details.
