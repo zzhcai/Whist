@@ -13,8 +13,6 @@ The Whist game play is briefly described below.
   6. The winner takes the lead for the next round starting a new trick. 
   7. The game play ends as soon as a player has received 24 points and that play wins the game. If the players have played all their cards without anyone winning, play continues exactly as described from 1 starting with new deal.
 
-<br/>
-
 An NPC will do 2 steps, i.e., cards filtering and card selecting.
 
 - Naïve legal approach: The NPC will attempt to select the cards that consistent with the rules, i.e., the cards in the lead suit and the cards in the trump suit. If the NPC does not have cards in the lead suit nor in the trump suit, it will select all cards in the hand (i.e., no filtering). If the NPC takes the lead, then no filtering.
