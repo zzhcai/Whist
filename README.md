@@ -29,3 +29,16 @@ An NPC will do 2 steps, i.e., cards filtering and card selecting.
 # Design Diagrams
 
 See [uml_class.pdf](https://github.com/zzhcai/Whist/blob/main/uml_class.pdf) and [uml_sequence.pdf](https://github.com/zzhcai/Whist/blob/main/uml_sequence.pdf) for details.
+
+
+# Marks
+
+- 17/20 (85%)
+
+- Appropriate Design (7/8): Good job on using observer pattern appropriately. Very Good decision on refactoring UI handling logic to another class (Host). It is a  manifestation of Façade pattern which you should have mentioned in the report/discussion instead of just simply stating high cohesion. The way of handling no filtering should be improved with current approach, it makes 2 unused variables in the input "Suit trump, Suit lead". Also, additional areas can be considered such as: variation of graphical presentations (e.g. card designs, layout settings), in-game configurability (toggle on/off card filtering for the interactive player e.g. in the event we want to enable such feature for the interactive player because it is an assistant function).
+
+  Diagrams (5/7): Good class diagram. Avoid using aggregation/composition in domain. The sd of legal should show more information such as e.g. how the naïve & trump are implemented under the legal settings. Currently, it is quite high level.
+
+  Implementation (5/5): Excellent. In the config/property file, it is better to group the values of a same NPC to one line e.g. NPC1 = (NaiveLegalFiltering, RandomSelecting)
+
+  \- Green Vo
